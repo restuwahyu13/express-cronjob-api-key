@@ -1,7 +1,7 @@
 {
   "name": "protected-api",
   "version": "1.0.0",
-  "description": "protected route api with api key",
+  "description": "extra protected route api using api key",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,8 +12,11 @@
     "url": "restuwahyu13"
   },
   "keywords": [
-    "express",
-    "node"
+    "express js",
+    "node",
+    "express cronjob",
+    "express api",
+    "express restfull api"
   ],
   "author": "restuwahyu13",
   "license": "ISC",
