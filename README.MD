@@ -8,8 +8,8 @@
 
 #### Endpoit Routes:
 
-| Route Name | Request Method |
-| -----------| ---------------|
+| Nama | Route Name | Request Method |
+| -----| -----------| ---------------|
 |  **Mhs Create** | http://localhost:3000/api/create/mhs?key=a1xxx | **POST**
 |  Mhs Results | http://localhost:3000/api/results/mhs?key=a1xxx | GET
 |  Mhs Result  | http://localhost:3000/api/result/mhs/:id?key=a1xxx | GET
