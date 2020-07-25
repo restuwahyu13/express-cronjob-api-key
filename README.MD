@@ -1,6 +1,6 @@
 ### Express Cronjob Dynamic API KEY
 
-**Berikut** ini adalah cara simple implementasi untuk memberikan **Extra Protected** pada sebuah **Route API** dengan menggunakan **API KEY**, cara ini hampir sama seperti kita memberikan **JWT Middleware** pada setiap **Route API** yang kita miliki, perbendaannya dengan **JWT** cara ini tidak harus menyimpan data apapun kedalam **Token**, dikarenakan ini hanya berupa **Token** biasa seperti layaknya **API KEY** pada umumnya.
+**Berikut** ini adalah cara simple implementasi untuk memberikan **Extra Protection** pada sebuah **Route API** dengan menggunakan **API KEY**, cara ini hampir sama seperti kita memberikan **JWT Middleware** pada setiap **Route API** yang kita miliki, perbendaannya dengan **JWT Middleware** cara ini tidak harus menyimpan data apapun kedalam **Token**, dikarenakan ini hanya berupa **Token** biasa seperti layaknya **API KEY** pada umumnya, **Token** tersebut akan diperbarui didalam **database** selama kurun waktu **24 jam** sekali, jika anda ingin menggunakan cara ini untuk memberi **Extra Protection** pada setiap **Route API** yang anda miliki, anda bisa menyimpan **Token**  tersebut kedalam sebuah **Cookie** atau **Local Storage**.
 
 #### Cara Menjalankan Aplikasi
 
